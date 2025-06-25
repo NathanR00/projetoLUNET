@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUNET</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.cdnfonts.com/css/caviar-dreams" rel="stylesheet" />
+
+  <!-- Ícones Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="./src/css/estilo.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>Lu<span style="color: blue;">net</span></h1>
+      <ul>
+        <li><a href="lentes.html" id="menu-lentes">Lentes</a></li>
+        <li><a href="cases.html" id="menu-cases">Cases</a></li>
+        <li><a href="oculos.html" id="menu-oculos">Óculos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article class="produto">
+      <img src="./src/assets/Lente1.jpg" alt="Lente 1" class="imagemProduto" />
+      <h3>Lente Blue Filter</h3>
+      <p>Proteção contra luz azul para quem trabalha no computador.</p>
+      <h4 class="preco">R$ 59,90</h4>
+      <button class="btn-comprar"><i class="fas fa-shopping-cart"></i> Comprar</button>
+    </article>
+
+    <article class="produto">
+      <img src="./src/assets/lente2.webp" alt="Lente 2" class="imagemProduto" />
+      <h3>Lente Fotossensível</h3>
+      <p>Escurece automaticamente em ambientes claros.</p>
+      <h4 class="preco">R$ 89,90</h4>
+      <button class="btn-comprar"><i class="fas fa-shopping-cart"></i> Comprar</button>
+    </article>
+  </main>
+  <footer>
+    <div class="footer-top">
+      <div class="contato">
+        <h3>Contato</h3>
+        <p>Email: LunetOculista@email.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+      </div>
+
+      <div class="redes-sociais">
+        <h3>Redes Sociais</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="https://x.com/" target="_blank"><i class=" fa-twitter"></i> Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="direitos">
+      <p>&copy; <span id="ano"></span> - todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script src="./src/js/script.js"></script>
+
+</body>
+
+</html>
