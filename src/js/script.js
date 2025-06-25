@@ -17,3 +17,6 @@ botoesComprar.forEach(function (botao) {
     alert("🛒 O produto foi adicionado ao carrinho!");
   });
 });
+// Preencher o ano atual automaticamente no rodapé
+let anoAtual = new Date().getFullYear();
+document.getElementById("ano").textContent = anoAtual;
